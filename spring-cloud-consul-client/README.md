@@ -1,8 +1,4 @@
-# 创建调用Consul的客户端项目  
+# 目录
 
-## 创建项目
-
-![Alt text](http://static.bluersw.com/images/spring-cloud-consul-client-01.png)  
-![Alt text](http://static.bluersw.com/images/spring-cloud-consul-client-02.png)  
-![Alt text](http://static.bluersw.com/images/spring-cloud-consul-client-03.png)  
-![Alt text](http://static.bluersw.com/images/spring-cloud-consul-client-04.png)  
+[安装Consul](InstallConsul.md)
+[创建Consul客户端项目](CreateProject.md)
