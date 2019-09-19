@@ -2,9 +2,16 @@ server:
  port: 9000
 spring:
   cloud:
-   gateway:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        register: true
+    gateway:
       routes:
-        - id: first_route
-          uri: https://github.com/sunweisheng
+        - id: test_route
+          uri: lb://service-provider/hello/
           predicates:
-            - Path=/test
+            - Path=/service-provider/hello/**
+  application:
+    name: PC-ApiGateWay
