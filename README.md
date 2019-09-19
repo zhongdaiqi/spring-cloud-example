@@ -5,3 +5,5 @@
 * [注册服务到服务中心（Consul）](./spring-cloud-provider/RegistrationService.md)  
 * [创建Consul客户端项目](./spring-cloud-consul-client/CreateProject.md)  
 * [调用Consul服务（消费服务）](./spring-cloud-consul-client/ConsumerService.md)  
+* [创建网关项目](./spring-cloud-gateway/CreateProject.md)
+* [Spring Cloud Gateway注册到服务器中心(Consul)](./spring-cloud-gateway/RegisteredConsul.md)  

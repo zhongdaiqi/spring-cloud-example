@@ -10,8 +10,10 @@ spring:
     gateway:
       routes:
         - id: test_route
-          uri: lb://service-provider/hello/
+          uri: lb://service-provider
           predicates:
-            - Path=/service-provider/hello/**
+            - Path=/service-provider/{segment}
+          filters:
+            - SetPath=/{segment}
   application:
     name: PC-ApiGateWay
