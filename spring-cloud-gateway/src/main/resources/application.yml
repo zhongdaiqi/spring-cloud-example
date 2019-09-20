@@ -15,5 +15,18 @@ spring:
             - Path=/service-provider/{segment}
           filters:
             - SetPath=/{segment}
+            - name: Hystrix
+              args:
+                name: service-provider-fallback
+                fallbackUri: forward:/service-provider-error
+            - name: Retry
+              args:
+                retries: 3
+                statuses: BAD_GATEWAY,BAD_REQUEST
+      default-filters:
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/default-error
   application:
     name: PC-ApiGateWay
