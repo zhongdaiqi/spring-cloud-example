@@ -9,3 +9,5 @@
 * [Spring Cloud Gateway注册到服务器中心(Consul)](./spring-cloud-gateway/RegisteredConsul.md)  
 * [网关中加入熔断机制](./spring-cloud-gateway/Fuse.md)
 * [Consul集群Server模式](./spring-cloud-consul-client/ConsulClusterServerMode.md)  
+* [Consul集群Server+Client模式](./spring-cloud-consul-client/ConsulClusterServerClientMode.md)  
+

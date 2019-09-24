@@ -15,6 +15,14 @@ spring-cloud-provider是模拟的服务提供者程序，spring-cloud-provider-s
 * [Docker Consul Image](https://learn.hashicorp.com/consul/day-0/containers-guide)
 * [其他Docker Image](https://hub.docker.com/u/bluersw)
 
+```shell
+docker pull consul
+docker pull bluersw/spring-cloud-consul-consumer:v1
+docker pull bluersw/spring-cloud-provider:v1
+docker pull bluersw/spring-cloud-provider:v1
+docker pull bluersw/spring-cloud-provider-second:v1
+```
+
 启动Consul脚本：
 
 ```shell
