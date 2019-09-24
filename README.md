@@ -10,4 +10,4 @@
 * [网关中加入熔断机制](./spring-cloud-gateway/Fuse.md)
 * [Consul集群Server模式](./spring-cloud-consul-client/ConsulClusterServerMode.md)  
 * [Consul集群Server+Client模式](./spring-cloud-consul-client/ConsulClusterServerClientMode.md)  
-
+* [Consul集群加入网关服务](./spring-cloud-gateway/ConsulClusterServerClientGatewayMode.md)  

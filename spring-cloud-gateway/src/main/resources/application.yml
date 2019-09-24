@@ -7,6 +7,8 @@ spring:
       port: 8500
       discovery:
         register: true
+        prefer-ip-address: true
+        health-check-path: /actuator/health
     gateway:
       routes:
         - id: test_route
