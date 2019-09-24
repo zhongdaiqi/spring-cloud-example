@@ -8,7 +8,7 @@
 
 ## 搭建演示环境
 
-在[Consul集群Server+Client模式](./spring-cloud-consul-client/ConsulClusterServerClientMode.md)的基础上，我们启动网关服务，演示环境中我们只启动一个网关服务进行模拟。  
+在[Consul集群Server+Client模式](./spring-cloud-consul-client/ConsulClusterServerClientMode.md)的基础上，我们更新并启动网关服务和消费者服务，演示环境中我们只启动一个网关服务进行模拟。  
 删除spring-cloud-gateway和spring-cloud-consul-consumer这两个容器。
 
 ```shell
